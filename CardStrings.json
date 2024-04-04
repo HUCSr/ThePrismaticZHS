@@ -1,7 +1,7 @@
 {
   "ThePrismatic:Targeting Strike": {
     "NAME": "瞄准打击",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予所有敌人 !M! 层 目标化 效果。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予所有敌人 !M! 层 theprismatic:目标化 效果。"
   },
   "ThePrismatic:Divine Strike": {
     "NAME": "神圣打击",
@@ -260,7 +260,7 @@
   },
   "ThePrismatic:Sneaky Strike": {
     "NAME": "隐秘打击",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 如果你在这回合通过 预见 丢弃过牌， 这张卡耗能变为 0。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 如果你在这回合 theprismatic:削弃 过牌， 这张卡耗能变为 0。"
   },
   "ThePrismatic:A Thousand Cuts": {
     "NAME": "凌迟",
@@ -371,26 +371,26 @@
   },
   "ThePrismatic:Deadly Poison": {
     "NAME": "致命毒药",
-    "DESCRIPTION": "给予 !M! 层 中毒 。 NL 如果这张卡在 预见 中被丢弃， 给予随机敌人 !M! 层 中毒 。"
+    "DESCRIPTION": "给予 !M! 层 中毒 。 NL 如果这张卡被 theprismatic:削弃 ， 给予随机敌人 !M! 层 中毒 。"
   },
   "ThePrismatic:Tactician": {
     "NAME": "战术大师",
-    "DESCRIPTION": "不能被打出。 NL 如果这张卡在 预见 中被丢弃， NL 获得 [G] 。",
-    "UPGRADE_DESCRIPTION": "不能被打出。 NL 如果这张卡在 预见 中被丢弃， NL 获得 [G] [G] 。",
+    "DESCRIPTION": "不能被打出。 NL 如果这张卡被 theprismatic:削弃 ， NL 获得 [G] 。",
+    "UPGRADE_DESCRIPTION": "不能被打出。 NL 如果这张卡被 theprismatic:削弃 ， NL 获得 [G] [G] 。",
     "EXTENDED_DESCRIPTION": [
       "这张牌不能被打出。"
     ]
   },
   "ThePrismatic:Reflex": {
     "NAME": "本能反应",
-    "DESCRIPTION": "不能被打出。 NL 如果这张卡在 预见 中被丢弃， 抽 !M! 张牌。",
+    "DESCRIPTION": "不能被打出。 NL 如果这张卡被 theprismatic:削弃 ， 抽 !M! 张牌。",
     "EXTENDED_DESCRIPTION": [
       "这张牌不能被打出。"
     ]
   },
   "ThePrismatic:Weave": {
     "NAME": "迂回",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 如果你在这回合通过 预见 丢弃过牌，将这张牌从弃牌堆放回你的手牌。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 你每次 theprismatic:削弃 牌时，将这张牌从弃牌堆放回你的手牌。"
   },
   "ThePrismatic:Follow-Up": {
     "NAME": "追击",
@@ -416,24 +416,24 @@
   },
   "ThePrismatic:Bullseye": {
     "NAME": "正中靶心",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 目标化 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 theprismatic:目标化 。"
   },
   "ThePrismatic:Targeting Defend": {
     "NAME": "瞄准防御",
-    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 给予所有敌人 !M! 层 目标化 效果。"
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 给予所有敌人 !M! 层 theprismatic:目标化 效果。"
   },
   "ThePrismatic:Catalyst": {
     "NAME": "催化剂",
-    "DESCRIPTION": "将一名敌人的 中毒 层数翻倍。 NL 给予 99 层 目标化 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "将一名敌人的 中毒 层数变为三倍。 NL 给予 99 层 目标化 。 NL 消耗 。"
+    "DESCRIPTION": "将一名敌人的 中毒 层数翻倍。 NL 给予 99 层 theprismatic:目标化 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "将一名敌人的 中毒 层数变为三倍。 NL 给予 99 层 theprismatic:目标化 。 NL 消耗 。"
   },
   "ThePrismatic:Pressure Points": {
     "NAME": "点穴",
-    "DESCRIPTION": "给予 !M! 层 *印记 。 NL 给予 !ThePrismatic:LockOn! 层 目标化 。 NL 所有拥有 *印记 的敌人，失去与层数相等的生命。"
+    "DESCRIPTION": "给予 !M! 层 *印记 。 NL 给予 !ThePrismatic:LockOn! 层 theprismatic:目标化 。 NL 所有拥有 *印记 的敌人，失去与层数相等的生命。"
   },
   "ThePrismatic:Eviscerate": {
     "NAME": "内脏切除",
-    "DESCRIPTION": "你在这个回合内每通过 预见 丢弃过一张牌，耗能就减少1 [E] 。 NL 造成 !D! 点伤害三次。"
+    "DESCRIPTION": "你在这个回合内每 theprismatic:削弃 一张牌，耗能就减少1 [E] 。 NL 造成 !D! 点伤害三次。"
   },
   "ThePrismatic:Slice": {
     "NAME": "切割",
@@ -450,7 +450,7 @@
   },
   "ThePrismatic:Nirvana": {
     "NAME": "涅槃",
-    "DESCRIPTION": "你每次通过 预见 丢弃牌时，获得 !M! 点 格挡 。"
+    "DESCRIPTION": "你每次 theprismatic:削弃 牌时，获得 !M! 点 格挡 。"
   },
   "ThePrismatic:Sadistic Defend": {
     "NAME": "残虐防御",
@@ -466,11 +466,11 @@
   },
   "ThePrismatic:Uppercut": {
     "NAME": "上勾拳",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 虚弱 。 NL 给予 !M! 层 易伤 。 NL 给予 !M! 层 目标化 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 虚弱 。 NL 给予 !M! 层 易伤 。 NL 给予 !M! 层 theprismatic:目标化 。"
   },
   "ThePrismatic:Shockwave": {
     "NAME": "震荡波",
-    "DESCRIPTION": "给予所有敌人 !M! 层 虚弱 ， 易伤 和 目标化 。 NL 消耗 。"
+    "DESCRIPTION": "给予所有敌人 !M! 层 虚弱 ， 易伤 和 theprismatic:目标化 。 NL 消耗 。"
   },
   "ThePrismatic:Empowering Defend": {
     "NAME": "赋能防御",
@@ -512,7 +512,7 @@
   },
   "ThePrismatic:Clothesline": {
     "NAME": "金刚臂",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 虚弱 。 NL 给予 !M! 层 目标化 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 虚弱 。 NL 给予 !M! 层 theprismatic:目标化 。"
   },
   "ThePrismatic:Juggernaut": {
     "NAME": "势不可当",
@@ -579,7 +579,7 @@
   },
   "ThePrismatic:Caltrops": {
     "NAME": "铁蒺藜",
-    "DESCRIPTION": "每当你被攻击时，对攻击者施加 1 层 目标化 并造成 !M! 点伤害。"
+    "DESCRIPTION": "每当你被攻击时，对攻击者施加 1 层 theprismatic:目标化 并造成 !M! 点伤害。"
   },
   "ThePrismatic:Deflect": {
     "NAME": "偏折",

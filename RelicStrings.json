@@ -112,14 +112,14 @@
     "NAME": "悬浮风筝",
     "FLAVOR": "风筝在战斗中飘浮在你的身旁，不知是何种神秘的力量让它能浮在空中。",
     "DESCRIPTIONS": [
-      "你在每回合第一次从预见中丢弃牌时，获得 [E] 。"
+      "你在每回合第一次 theprismatic:削弃 牌时，获得 [E] 。"
     ]
   },
   "ThePrismatic:Tough Bandages": {
     "NAME": "结实绷带",
     "FLAVOR": "失去给人带来力量。",
     "DESCRIPTIONS": [
-      "你每在你的回合中从预见中丢弃牌时，获得 #b",
+      "你每在你的回合 theprismatic:削弃 一张牌，就获得 #b",
       " 点 #y格挡 。"
     ]
   },
@@ -127,7 +127,7 @@
     "NAME": "铜钹",
     "FLAVOR": "这件乐器发出的响声似乎能回荡到让人耳朵发痛。",
     "DESCRIPTIONS": [
-      "你每在你的回合中从预见中丢弃牌时，对随机敌人造成 #b",
+      "你每在你的回合 theprismatic:削弃 一张牌，就对一名随机敌人造成 #b",
       " 点伤害。"
     ]
   },
@@ -194,7 +194,7 @@
     "DESCRIPTIONS": [
       "每当你给予 #y易伤 时，同时给予 #b",
       " 层 #y虚弱 和 #b",
-      " 层 #y目标化 。"
+      " 层 #ytheprismatic:目标化 。"
     ]
   },
   "ThePrismatic:Orb Slot": {

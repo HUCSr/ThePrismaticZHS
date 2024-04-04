@@ -7,10 +7,10 @@
     "DESCRIPTION": "目标化的敌人受到的间接伤害增加 #b50% 。"
   },
   {
-    "PROPER_NAME": "铣削",
+    "PROPER_NAME": "削弃",
     "NAMES": [
-      "铣削"
+      "削弃"
     ],
-    "DESCRIPTION": "当一张牌在预见中被丢弃，视作被铣削."
+    "DESCRIPTION": "当一张牌从手牌中被丢弃或在预见中被丢弃，视作被削弃。"
   }
 ]
